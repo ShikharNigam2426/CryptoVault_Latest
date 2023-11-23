@@ -1,0 +1,38 @@
+.Search-Tagline{
+    color: #6e7ccc;
+    font-size: larger;
+}
+
+.SearchBar > input{
+    border-radius: 10px!important;
+}
+
+.Search-Btn{
+    width: inherit!important;
+    border-radius: 10px!important;
+}
+
+@media (max-width: 767px) {
+    .market-heading{
+        font-size: 5.5vw!important;
+    }
+
+    .market-params{
+        font-size: 3vw;
+        align-items: center;
+    }
+
+    .Market-Data{
+        font-size: 2vw;
+        border-radius: 10px;
+        height: fit-content;
+        align-items: center;
+        padding-top: 10px;
+        background-color: #3b436c;
+        padding-bottom: 10px;
+    }
+
+    .coin-img{
+        margin-right: 2vw!important;
+    }
+}

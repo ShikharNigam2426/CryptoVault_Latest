@@ -1,0 +1,75 @@
+.Social-Tagline {
+    color: #6e7ccc;
+    font-size: larger;
+}
+
+.Socials-Heading{
+    font-size: 3vw!important;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+.Red {
+    color: red;
+}
+
+.purple {
+    color: #6e7ccc;
+}
+
+.subscribe {
+    font-size: 2.5vw;
+}
+
+.Socials-Links>img {
+    width: 3vw;
+    margin-left: 1vw;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* .Socials-Links img:hover {
+    overflow-y: hidden;
+    transform: scale(1.1);
+    opacity: 0.8;
+} */
+
+.footer{
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+}
+
+.policy{
+    text-decoration: underline;
+}
+
+.Follow{
+    font-size: 3vw;
+}
+
+@media (max-width: 767px) {
+    .subscribe {
+        font-size: 4.5vw!important;
+    }
+
+    .Socials-Heading{
+        font-size: 7vw!important;
+        font-family: 'Josefin Sans', sans-serif;
+        color: white;
+    }  
+
+    .Follow{
+        font-size: 6vw;
+    }
+
+    .Socials-Links>img {
+        width: 7vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
+
+    .footer-text{
+        font-size: 2vw;
+    }
+}

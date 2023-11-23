@@ -1,0 +1,67 @@
+.Landing {
+    height: 60vh !important;
+}
+
+.row{
+    height: fit-content!important;
+}
+
+.tagLine {
+    font-size: 3.5vw !important;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    overflow-y: hidden !important;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 45px !important;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.btn {
+    width: fit-content !important;
+}
+
+.gif {
+    width: inherit;
+    height: auto;
+    border-radius: 53px !important;
+}
+
+@media (max-width: 767px) {
+    .tagLine {
+        font-size: 4vmax !important;
+        font-family: 'Josefin Sans', sans-serif;
+        color: white;
+        overflow-y: hidden !important;
+    }
+
+    .btn {
+        border-radius: 10px !important;
+    }
+
+    .gif {
+        width: 85vw !important;
+        height: 24vh;
+        border-radius: 16px !important;
+    }
+
+    .Landing .left,
+    .Landing .right {
+        margin-bottom: 20px;
+        /* Adjust the margin as needed */
+    }
+}
